@@ -11,11 +11,12 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .header{
     height: 80px;
     width: 70%;
-    background-color: goldenrod;
+    background-color: #F4511F;
     border-radius: 3px;
     margin: 30px 0px;
     display: flex;
