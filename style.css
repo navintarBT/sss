@@ -1,0 +1,107 @@
+*{
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+body{
+    background-image: url("papaya-salad-served-with-rice-noodles-vegetable-salad-decorated-with-thai-food-ingredients.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+.box .imm{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 90vh;
+}
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-top: -1em;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: rgb(185, 255, 157);
+    font-size: 15px;
+    padding: 0 0 0 10px;
+    background: rgba(255, 255, 255, 0.16);
+    outline: none;
+
+}
+.input2{
+    height: 45px;
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    color: rgb(185, 255, 157);
+    font-size: 15px;
+    padding: 0 0 0 10px;
+    background: rgba(255, 255, 255, 0.16);
+    outline: none;
+
+}
+.input:hover{
+    letter-spacing: 2px;
+
+}
+.input2:hover{
+    letter-spacing: 2px;
+
+}
+
+i{
+    position:absolute;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.473);
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
