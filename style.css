@@ -12,6 +12,7 @@ body{
     justify-content: center;
     flex-direction: column;
     
+    
 }
 .header{
     height: 80px;
@@ -39,7 +40,7 @@ body{
     width: 80px;
 }
 .fa-solid{
-    color: goldenrod;
+    color: black;
 }
 .cart p{
     height: 22px;
@@ -48,7 +49,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 22px;
-    background-color: goldenrod;
+    background-color:#F4511F;
     color: white;
 }
 .container{
@@ -71,7 +72,7 @@ body{
     text-align: center;
 }
 .head{
-    background-color: goldenrod;
+    background-color:#F4511F;
     border-radius: 3px;
     height: 40px;
     padding: 10px;
@@ -92,7 +93,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid goldenrod;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 15px;
 }
@@ -121,14 +122,14 @@ body{
 }
 h2{
     font-size: 20px;
-    color: red;
+    color: #F4511F;
 }
 button{
     width: 100%;
     position: relative;
     border: none;
     border-radius: 5px;
-    background-color: goldenrod;
+    background-color:#F4511F;
     padding: 7px 25px;
     cursor: pointer;
     color: white;
@@ -150,7 +151,7 @@ button:hover{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    border: 1px solid goldenrod;
+    border: 1px solid #F4511F;
     display: flex;
     align-items: center;
     justify-content: center;
