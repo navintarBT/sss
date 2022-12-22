@@ -46,7 +46,92 @@ const product = [
         image: 'image/ສະປາເກັດຕີ້.png',
         title: 'ສະປາເກັດຕີ້',
         price: 35000,
-    }
+    },
+    {
+        id: 20,
+        image: 'image/ສະຫຼັດ.png',
+        title: 'ສະຫຼັດ',
+        price: 19000,
+    },
+    {
+        id: 8,
+        image: 'image/ຊາລັນຢ່າ.png',
+        title: 'ຊາລັນຢ່າ',
+        price: 45000,
+    },
+    {
+        id: 19,
+        image: 'image/ກຸ້ງ.png',
+        title: 'ກຸ້ງມັງກອນທະເລເຜົາ',
+        price: 45000,
+    },
+    {
+        id: 7,
+        image: 'image/ກາເຟ.png',
+        title: 'ກາເຟ',
+        price: 15000,
+    },
+    {
+        id: 9,
+        image: 'image/ຊາຂຽວ.png',
+        title: 'ຊາຂຽວ',
+        price: 20000,
+    },
+    {
+        id: 10,
+        image: 'image/ນາວ.png',
+        title: 'ຊາໝາກນາວ',
+        price: 20000,
+    },
+    {
+        id: 11,
+        image: 'image/pepsi.png',
+        title: 'ເປບຊີ',
+        price: 5000,
+    },
+    {
+        id: 12,
+        image: 'image/oishi.png',
+        title: 'ໂອອິຊິ',
+        price: 10000,
+    },
+    {
+        id: 13,
+        image: 'image/sting.png',
+        title: 'ສະຕິງ',
+        price: 7000,
+    },
+    {
+        id: 14,
+        image: 'image/ເຄັກ.png',
+        title: 'ເຄັກ',
+        price: 25000,
+    },
+    {
+        id: 15,
+        image: 'image/ຊໍ.png',
+        title: 'ໂຊກກໍແລດ',
+        price: 22000,
+    },
+    {
+        id: 16,
+        image: 'image/cookie.png',
+        title: 'ຄຸກກີ້',
+        price: 15000,
+    },
+    {
+        id: 16,
+        image: 'image/cupcake1.png',
+        title: 'ຄັບເຄັກ',
+        price: 11000,
+    },
+    {
+        id: 18,
+        image: 'image/ກະແລ້ມ.png',
+        title: 'ກະແລ້ມ',
+        price: 19000,
+    },
+
 ];
 const categories = [...new Set(product.map((item)=>
     {return item}))]
