@@ -67,7 +67,7 @@ body{
 .sidebar{
     width: 40%;
     border-radius: 5px;
-    background-color: #eee;
+    background: linear-gradient(90deg, hsl(104, 28%, 40%) 0%,);
     margin-left: 20px;
     padding: 15px;
     text-align: center;

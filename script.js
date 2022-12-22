@@ -1,52 +1,41 @@
 const product = [
     {
         id: 0,
-        image: 'image/ຂະໜົມປັງທູນ້າ.png',
-        title: 'ແຊນວີດທູນ້າ',
-        price: 30,
+        image: 'image/oishi.png',
+        title: 'ໂອອີຊີ',
+        price: 10,
     },
     {
         id: 1,
-        image: 'image/ອາຫານຄີນ.png',
-        title: 'ອາຫານຄີນ',
-        price: 60,
+        image: 'image/pepsi.png',
+        title: 'ເປບຊີ',
+        price: 5,
     },
     {
         id: 2,
-        image: 'image/ສະເຕັກເນື້ອ.png',
-        title: 'ສະເຕັກເນື້ອ',
-        price: 75,
+        image: 'image/sting.png',
+        title: 'ສະຕີງ',
+        price: 7,
     },
     {
         id: 3,
-        image: 'image/ເຂົ້າໜຽວໝາກມ່ວງ.png',
-        title: 'ເຂົ້າໜຽວໝາກມ່ວງ',
-        price: 25,
+        image: 'image/ກາເຟ.png',
+        title: 'ກາເຟຮ້ອນ',
+        price: 15,
     },
     {
         id: 4,
-        image: 'image/ລາຊັນຍ້າ2.png',
-        title: 'ຊາລັນຍ້າ',
-        price: 55,
+        image: 'image/s.png',
+        title: 'ຊາຂຽວ',
+        price: 21,
     },
     {
         id: 5,
-        image: 'image/ເບີເກີ້.png',
-        title: 'ເບີເກີ້',
-        price: 35,
-    },
-    {
-        id: 3,
-        image: 'image/ມິກເບີລີ້ເຟນໂທສ.png',
-        title: 'ມິກເບີລີ້ເຟນໂທສ',
-        price: 65,
-    },
-    {
-        id: 6,
-        image: 'image/ສະປາເກັດຕີ້.png',
-        title: 'ສະປາເກັດຕີ້',
-        price: 35,
+        image: 'image/n.png',
+        title: 'ຊາໝາກນາວ',
+        price: 20,
     }
+    
 ];
 const categories = [...new Set(product.map((item)=>
     {return item}))]
