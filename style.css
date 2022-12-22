@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap');
+
+*{
+    font-family: 'Noto Sans Lao', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    
+    
+}
+h1{
+    margin-left: 40%;
+    margin-top: 10%;
+    position: relative;
+    font-size:6ex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 2px 4px rgb(0, 76, 1);
+
+}
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    margin-top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #26ff26;
+    -webkit-text-stroke: 0vw solid #006c0000;
+    border-right: 2px solid #26ff26  ;
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,100%
+    {
+        width: 50%;
+    }
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+
+}
+.progress img{
+    width: 80px;
+    padding: center;
+    filter: drop-shadow(3px 2px 2px rgb(255, 255, 255));    
+}
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    width: 200px;
+    margin-top: 1%;
+    position: relative;
+}
+ul li .fa{
+    
+    background: #ccc;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+ul li .fa::after{
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 58%;
+    z-index: -1; 
+}
+ul li:nth-child(1) .fa{
+    background: #148e14;
+}
+ul li:nth-child(1) .fa::after{
+    background: #148e14;
+}
+ul li:nth-child(2) .fa{
+    background: #148e14;
+}
+ul li:nth-child(2) .fa::after{
+    background: #148e14;
+}
